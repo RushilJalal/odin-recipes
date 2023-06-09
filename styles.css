@@ -1,0 +1,55 @@
+* {
+    line-height: 1.5;
+}
+
+
+img.sandwich {
+    height: auto;
+    width: 300px; 
+}
+
+img.hamburger {
+    height: 200px;
+    width: 350px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.recipe-card {
+    text-align: center;
+    width: 400px;
+    border: 4px;
+}
+
+.recipe-card.sandwich {
+    background-color: bisque;
+    border: solid yellow;
+}
+
+.recipe-card.hamburger {
+    background-color: aqua;
+    border: solid blue;
+}
+
+.recipe-content {
+    text-align: center;
+}
+
+.GFG {
+    background-color: darkgreen;
+    border: 2px solid black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
