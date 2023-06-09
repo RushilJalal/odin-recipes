@@ -1,5 +1,6 @@
 * {
     line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -19,7 +20,7 @@ ul, ol {
 
 .recipe-card {
     text-align: center;
-    width: 400px;
+    width: 500px;
     border: 4px;
 }
 
@@ -59,7 +60,7 @@ h1, h2, h3 {
     position:absolute;
     margin: auto;
     top: 50%;
-    left: 60%;
+    left: 75%;
     transform: translate(-50%, -50%);
 }
 
