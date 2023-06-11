@@ -6,7 +6,7 @@
 
 img.sandwich {
     height: auto;
-    width: 300px; 
+    width: 350px; 
 }
 
 img.hamburger {
@@ -21,21 +21,25 @@ ul, ol {
 .recipe-card {
     text-align: center;
     width: 500px;
-    border: 4px;
+    padding:10px;
 }
 
 .recipe-card.sandwich {
     background-color: bisque;
     border: solid yellow;
+    margin: 0px auto;
+
 }
 
 .recipe-card.hamburger {
     background-color: aqua;
     border: solid blue;
+    margin: 0px 50px;
 }
 
 .recipe-content {
     text-align: center;
+    padding: 10px;
 }
 
 .button {
@@ -54,6 +58,7 @@ ul, ol {
 h1, h2, h3 {
     text-transform: capitalize;
     color:brown;
+    padding: 10px;
 }
 
 .vid {
@@ -62,6 +67,10 @@ h1, h2, h3 {
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
+}
+
+.container {
+    background-color: black;/*dark mode*/
 }
 
 .container.homepage {
