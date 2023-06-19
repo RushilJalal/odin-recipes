@@ -91,5 +91,10 @@ ul, ol {
     text-decoration:none;
 }
 
+a {
+    text-decoration: none;
+    /* this removes underlines from links */
+}
+
 
 
